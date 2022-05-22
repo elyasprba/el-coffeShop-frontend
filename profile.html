@@ -12,7 +12,7 @@
          <nav class="nav-container">
             <div class="logo-image">
                <img src="./assets/coffee-1.png" alt="coffee-logo" />
-               <p class="logo-name">Coffe Shop</p>
+               <p class="logo-name">el-Coffe Shop</p>
             </div>
             <div class="navbar">
                <ul>
@@ -57,40 +57,87 @@
                <div class="profile-detail">
                   <div class="contacts">
                      <h3>Contacts</h3>
-                     <form>
-                        <label for="email">Email adress :</label>
-                        <input type="email" id="email" placeholder="Enter your email adress" />
-                        <br />
-                        <label for="adres">Delivery adress :</label>
-                        <input type="text" id="adres" placeholder="Enter your delivery adress" />
-                        <label for="phone">Mobile number :</label>
-                        <input type="text" id="phone" placeholder="Enter your mobile number" />
+                     <form class="form-contacts">
+                        <div class="from-email-adress">
+                           <label for="email">Email adress :</label>
+                           <input type="email" id="email" placeholder="Enter your email adress" />
+                           <label for="adres">Delivery adress :</label>
+                           <input type="text" id="adress" placeholder="Enter your delivery adress" />
+                        </div>
+                        <div class="form-phone">
+                           <label for="phone">Mobile number :</label>
+                           <input type="text" id="phone" placeholder="Enter your mobile number" />
+                        </div>
                      </form>
                   </div>
                   <div class="details">
                      <h3>Details</h3>
-                     <form>
-                        <label for="name">Display name :</label>
-                        <input type="text" id="name" placeholder="Enter your display name" />
-                        <label for="first">First name :</label>
-                        <input type="text" id="first" placeholder="Enter your first name" />
-                        <label for="last">Last name :</label>
-                        <input type="text" id="last" placeholder="Enter your last name" />
-                        <label for="date">DD/MM/YY</label>
-                        <input type="date" id="last" placeholder="Enter your birthday date" />
+                     <form class="form-details">
+                        <div class="form-display-first-last">
+                           <label for="name">Display name :</label>
+                           <input type="text" id="name" placeholder="Enter your display name" />
+                           <label for="first">First name :</label>
+                           <input type="text" id="first" placeholder="Enter your first name" />
+                           <label for="last">Last name :</label>
+                           <input type="text" id="last" placeholder="Enter your last name" />
+                        </div>
+                        <div class="form-date">
+                           <label for="date">DD/MM/YY</label>
+                           <input type="date" id="last" placeholder="Enter your birthday date" />
+                        </div>
                      </form>
                   </div>
                   <div class="gender">
-                     <ul>
-                        <li>Male</li>
-                        <li>Female</li>
-                     </ul>
+                     <label class="radio-container"
+                        >Male
+                        <input type="radio" checked="checked" name="radio" />
+                        <span class="checkmark"></span>
+                     </label>
+                     <label class="radio-container"
+                        >Female
+                        <input type="radio" name="radio" />
+                        <span class="checkmark"></span>
+                     </label>
                   </div>
                </div>
             </div>
          </main>
          <footer class="footer-container">
-            <h1>footer</h1>
+            <div class="main-footer">
+               <div class="desc-footer">
+                  <div class="logo-image">
+                     <img src="./assets/coffee-1.png" alt="coffee-logo" />
+                     <p class="logo-name">el-Coffe Shop</p>
+                  </div>
+                  <p>Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
+                  <img src="./assets/sosmed/fb-img.png" alt="fb-img" />
+                  <img src="./assets/sosmed/twitter-img.png" alt="twitter-img" />
+                  <img src="./assets/sosmed/ig-img.png" alt="ig-img" />
+                  <p class="copy-right">©2020el-CoffeeStore</p>
+               </div>
+               <div class="list-footer">
+                  <div class="product">
+                     <h4>Product</h4>
+                     <ul>
+                        <li>Download</li>
+                        <li>Pricing</li>
+                        <li>Location</li>
+                        <li>Countries</li>
+                        <li>Blog</li>
+                     </ul>
+                  </div>
+                  <div class="engage">
+                     <h4>Engage</h4>
+                     <ul>
+                        <li>Coffe Shop</li>
+                        <li>FAQ</li>
+                        <li>About Us</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms of Service</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
          </footer>
       </div>
    </body>
