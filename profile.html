@@ -33,9 +33,14 @@
             <div class="profile-container">
                <div class="profile-info">
                   <div class="profile">
-                     <img src="" alt="" />
-                     <h2>Name User</h2>
-                     <p>emailusers@gmail.com</p>
+                     <img
+                        src="https://s3-alpha-sig.figma.com/img/0ccd/b210/685819c7ff9c7e2cbb23e6190ab4ef92?Expires=1653868800&Signature=LSpxevzW2psoSS2ywTNfHZh2LXnXbF1yKT7E~eT3ScYCQjGPICL-VP8wEN7ixpkAdTTHH3V~szzSNwjZH0oI31K4iPMt~nvL4fhLPF5x3BIj8j0brWq324SbMOhb7p2tlR742WH6mEHwAMIFgQXmpC3f-8Mqkjtkt8xCW~4ZiVRaVEffS8CYE9Wr1lckaLeDjXXII2kVxvEHgsjrBpVUrsoBpxcAPGCRp-IHTXdAluMexu6NL2qBWbz9WG84r4uy5YBF-1GMgajTxBX-l9mFEdswTVQ9dOgU-5xC4tg8JZFm6KASPiEEBl1qndiLQM~8JI1WYUvwJgXDMyH9JHiKVg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                        alt="profile-user"
+                     />
+                     <div class="username">
+                        <h3>Name users</h3>
+                        <p>emailusers@gmail.com</p>
+                     </div>
                   </div>
                   <div class="profile-button">
                      <button class="choose-photo">Choose photo</button>
@@ -43,20 +48,25 @@
                      <button class="edit-password">Edit Password</button>
                      <p>Do you want to save the change?</p>
                      <button class="save-change">Save Change</button>
-                     <button class="save-cancel">Cencel</button>
-                     <button class="save-logout">Log out</button>
+                     <button class="cancel">Cencel</button>
+                     <button class="logout">Log out</button>
                   </div>
                </div>
                <div class="profile-detail">
                   <div class="contacts">
                      <h3>Contacts</h3>
                      <form>
-                        <label for="email">Email adress :</label>
-                        <input type="email" id="email" placeholder="Enter your email adress" />
-                        <label for="adres">Delivery adress :</label>
-                        <input type="text" id="adres" placeholder="Enter your delivery adress" />
-                        <label for="phone">Mobile number :</label>
-                        <input type="text" id="phone" placeholder="Enter your mobile number" />
+                        <div class="contacts-row1">
+                           <label for="email">Email adress :</label>
+                           <input type="email" id="email" placeholder="Enter your email adress" />
+                           <br />
+                           <label for="adres">Delivery adress :</label>
+                           <input type="text" id="adres" placeholder="Enter your delivery adress" />
+                        </div>
+                        <div class="contacts-row2">
+                           <label for="phone">Mobile number :</label>
+                           <input type="text" id="phone" placeholder="Enter your mobile number" />
+                        </div>
                      </form>
                   </div>
                   <div class="details">
@@ -72,12 +82,12 @@
                         <input type="date" id="last" placeholder="Enter your birthday date" />
                      </form>
                   </div>
-               </div>
-               <div class="gender">
-                  <ul>
-                     <li>Male</li>
-                     <li>Female</li>
-                  </ul>
+                  <div class="gender">
+                     <ul>
+                        <li>Male</li>
+                        <li>Female</li>
+                     </ul>
+                  </div>
                </div>
             </div>
          </main>
