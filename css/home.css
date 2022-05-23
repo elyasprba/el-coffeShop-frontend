@@ -1,0 +1,72 @@
+.btn-signup {
+   color: #6a4029;
+   border: none;
+   border-radius: 20px;
+   background: #ffba33;
+   width: 150px;
+   height: 45px;
+   /* height: 0px; */
+}
+
+.bg-image {
+   width: 100%;
+   height: 650px;
+   background-size: cover;
+   background-position: 50% 60%;
+}
+
+.btn-start {
+   width: 250px;
+   height: 60px;
+   border: none;
+   border-radius: 10px;
+   color: #6a4029;
+   background: #ffba33;
+}
+
+.info {
+   width: 1140px;
+   height: 200px;
+   display: flex;
+   background-color: white;
+   position: absolute;
+   z-index: 1;
+   top: 650px;
+   left: 10%;
+   border-radius: 10px;
+   border-bottom: 1px solid #4f5665;
+}
+
+.staf {
+   margin-top: 75px;
+   display: flex;
+   justify-content: center;
+}
+
+.store {
+   margin-top: 75px;
+   display: flex;
+   justify-content: center;
+}
+
+.customers {
+   margin-top: 75px;
+   display: flex;
+   justify-content: center;
+}
+
+.main-teamwork {
+   display: flex;
+   margin-top: 150px;
+}
+
+.list-right-team {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 30px;
+   color: #4f5665;
+}
+
+.list-right-team img {
+   margin-right: 12px;
+}
