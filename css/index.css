@@ -15,6 +15,11 @@ html {
    height: 45px;
 }
 
+.btn-signup a {
+   color: #6a4029;
+   text-decoration: none;
+}
+
 .bg-image {
    width: 100%;
    height: 650px;

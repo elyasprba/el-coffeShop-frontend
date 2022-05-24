@@ -33,6 +33,11 @@
    text-align: left;
 }
 
+.navbar {
+   width: 50%;
+   text-align: center;
+}
+
 .navbar ul li {
    display: inline;
 }
@@ -40,7 +45,7 @@
 .navbar ul li a {
    text-decoration: none;
    color: #4f5665;
-   margin: 20px;
+   margin-left: 2%;
 }
 
 .nav-icon img {
@@ -216,6 +221,7 @@
 }
 .form-phone {
    display: flex;
+   flex: 1;
    flex-direction: column;
    margin-left: 50px;
 }
@@ -254,8 +260,9 @@ input {
 
 .form-date {
    display: flex;
+   flex: 1;
    flex-direction: column;
-   margin-left: 100px;
+   margin-left: 50px;
 }
 
 .gender {
@@ -275,10 +282,6 @@ input {
    margin: 12px;
    cursor: pointer;
    font-size: 22px;
-   -webkit-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
-   user-select: none;
 }
 
 .radio-container input {
@@ -319,8 +322,8 @@ input {
 /* Footer */
 
 .footer-container {
-   padding: 5%;
-   width: 100%;
+   padding-top: 50px;
+   padding-bottom: 50px;
    background-color: #f8f8f8;
 }
 
@@ -353,7 +356,6 @@ input {
 
 .list-footer {
    display: flex;
-   flex: 1;
    width: 100%;
 }
 
@@ -410,4 +412,78 @@ input {
    font-size: 16px;
    line-height: 30px;
    color: #4f5665;
+}
+
+@media (max-width: 834px) {
+   .nav-container {
+      padding-left: 5%;
+      padding-right: 5%;
+   }
+
+   .profile-container {
+      flex-direction: column;
+      margin-left: 5%;
+      margin-right: 5%;
+   }
+
+   .form-contacts {
+      flex-direction: column;
+   }
+   .form-phone {
+      margin-left: 0;
+   }
+   .main-container {
+      background-repeat: repeat;
+   }
+
+   .form-details {
+      flex-direction: column;
+   }
+
+   .form-date {
+      margin-left: 0;
+   }
+}
+
+@media (max-width: 428px) {
+   .nav-container {
+      font-size: 13px;
+      margin: 5%;
+   }
+
+   .nav-container .logo-image img {
+      width: 15px;
+      height: 15px;
+      margin-top: 7%;
+   }
+
+   .navbar {
+      width: 100%;
+      /* margin: ; */
+   }
+
+   .nav-container .logo-name {
+      display: none;
+   }
+
+   .nav-icon img {
+      width: 15px;
+      margin: 2px;
+   }
+
+   .nav-icon {
+      display: flex;
+   }
+
+   .user-profile {
+      margin: 0;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      text-align: center;
+   }
+
+   .main-footer {
+      display: flex;
+      flex-direction: column;
+   }
 }
