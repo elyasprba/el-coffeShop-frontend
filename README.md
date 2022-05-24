@@ -1,1 +1,35 @@
-# Frontend Coffee Shop
+<h1 style="text-align:center">el-Coffee Shop</h1>
+
+<div style="display:flex; justify-content:center">
+    <img src="assets/coffee-1.png" />
+</div>
+
+## Built With
+
+![html](https://img.shields.io/badge/html-5-yellow)
+![css](https://img.shields.io/badge/css-3-red)
+![bootstrap](https://img.shields.io/badge/bootstrap-5-green)
+
+## How To Install
+
+1. Clone the repository
+   ```
+   $ git clone https://github.com/elyasprba/el-coffeShop-frontend.git
+   ```
+2. Open [VS Code](https://code.visualstudio.com/)
+3. Install [Live Server Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+4. Right click _index.html_ then choose **Open With Live Server**
+
+## Preview
+
+<div style='display:flex;flex-direction:column;row-gap:10px;align-items:center'>
+<img src="assets/result/home.png" alt="home-img" />
+<img src="assets/result/signup.png" alt="signup-img" />
+<img src="assets/result/login.png" alt="login-img" />
+<img src="assets/result/profile.png" alt="profile-img" />
+<img src="assets/result/products.png" alt="products-img" />
+</div>
+
+## Related Project
+
+[el-CoffeeShop Backend](https://github.com/elyasprba/el-coffeShop-backend.git)
