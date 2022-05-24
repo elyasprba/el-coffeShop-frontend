@@ -1,8 +1,7 @@
-<h1 style="text-align:center">el-Coffee Shop</h1>
-
-<div style="display:flex; justify-content:center">
-    <img src="assets/coffee-1.png" />
-</div>
+<p align="center">
+    <img src="./assets/coffee-1.png" width=65 alt="logo-icon" />
+    <h1 align='center'>el-Coffee Shop</h1>
+</p>
 
 ## Demo
 
@@ -26,12 +25,12 @@ Link demo [el-CoffeeShop](https://github.com/elyasprba/el-coffeShop-backend.git)
 
 ## Preview Project
 
-<div style='display:flex;row-gap:20px;flex-direction:column'>
-<img src="assets/result/home.png" alt="home-img" style="width: 50%; height: 50%" />
-<img src="assets/result/signup.png" alt="signup-img" style="width: 50%; height: 50%" />
-<img src="assets/result/login.png" alt="login-img" style="width: 50%; height: 50%" />
-<img src="assets/result/profile.png" alt="profile-img" style="width: 50%; height: 50%"/>
-<img src="assets/result/products.png" alt="products-img" style="width: 50%; height: 50%"/>
+<div style='display:flex;row-gap:20px;flex-direction:column;'>
+    <img src="assets/result/home.png" alt="home-img" style="width: 50%; height: 50%" />
+    <img src="assets/result/signup.png" alt="signup-img" style="width: 50%; height: 50%" />
+    <img src="assets/result/login.png" alt="login-img" style="width: 50%; height: 50%" />
+    <img src="assets/result/profile.png" alt="profile-img" style="width: 50%; height: 50%"/>
+    <img src="assets/result/products.png" alt="products-img" style="width: 50%; height: 50%"/>
 </div>
 
 ## Related Project
