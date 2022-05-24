@@ -1,3 +1,11 @@
+*,
+body,
+html {
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Rubik', sans-serif;
+}
+
 .btn-signup {
    color: #6a4029;
    border: none;
