@@ -20,7 +20,7 @@
 3. Install [Live Server Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 4. Right click _index.html_ then choose **Open With Live Server**
 
-## Preview
+## Preview Project
 
 <div style='display:flex;flex-direction:column;row-gap:10px;align-items:center'>
 <img src="assets/result/home.png" alt="home-img" />
