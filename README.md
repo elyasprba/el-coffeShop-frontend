@@ -22,12 +22,12 @@
 
 ## Preview
 
-<div style='display:flex;flex-direction:column;row-gap:10px;align-items:center'>
-<img src="assets/result/home.png" alt="home-img" />
-<img src="assets/result/signup.png" alt="signup-img" />
-<img src="assets/result/login.png" alt="login-img" />
-<img src="assets/result/profile.png" alt="profile-img" />
-<img src="assets/result/products.png" alt="products-img" />
+<div style='display:flex;row-gap:20px;flex-direction:column'>
+<img src="assets/result/home.png" alt="home-img" style="width: 50%; height: 50%" />
+<img src="assets/result/signup.png" alt="signup-img" style="width: 50%; height: 50%" />
+<img src="assets/result/login.png" alt="login-img" style="width: 50%; height: 50%" />
+<img src="assets/result/profile.png" alt="profile-img" style="width: 50%; height: 50%"/>
+<img src="assets/result/products.png" alt="products-img" style="width: 50%; height: 50%"/>
 </div>
 
 ## Related Project
