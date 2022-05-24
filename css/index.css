@@ -287,6 +287,35 @@
    color: #0b132a;
 }
 
+.paginasi {
+   padding: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   background-color: #f8f8f8;
+   height: 350px;
+}
+.slide {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 10%;
+}
+.button {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-right: 10%;
+   position: relative;
+   cursor: pointer;
+}
+.btn-right {
+   position: absolute;
+   top: -30px;
+   right: -150px;
+}
+
 .custom-promo {
    width: 80%;
    bottom: 70px;

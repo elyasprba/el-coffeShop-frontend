@@ -5,27 +5,32 @@ html {
    box-sizing: border-box;
    font-family: 'Rubik', sans-serif;
 }
+
 .header {
    height: 130px;
    border-bottom: 0.5px solid #9f9f9f;
    background-color: #ffffff;
 }
+
 .logo {
    display: flex;
    align-items: center;
    justify-content: center;
 }
+
 .logo > h2 {
    margin-left: 15px;
    font-size: 20px;
    font-weight: 600;
 }
+
 .navigasi {
    list-style: none;
    display: flex;
    align-items: center;
    justify-content: center;
 }
+
 .navigasi > li {
    margin: 20px;
    font-size: 16px;
@@ -33,11 +38,7 @@ html {
    color: #4f5665;
    cursor: pointer;
 }
-.navigasi > li:hover {
-   font-size: 16px;
-   font-weight: 700;
-   color: #6a4029;
-}
+
 .auth {
    display: flex;
    align-items: center;
@@ -46,6 +47,7 @@ html {
 .message {
    position: relative;
 }
+
 .messageCount {
    display: flex;
    align-items: center;
@@ -60,6 +62,7 @@ html {
    font-size: 8px;
    color: white;
 }
+
 .message > img {
    height: 30px;
    width: 30px;
@@ -143,7 +146,7 @@ html {
 }
 .dashLine {
    border-bottom: 1px dashed #000000;
-   width: 125%;
+   width: 100%;
 }
 .coupon {
    margin-top: 30px;
@@ -226,68 +229,43 @@ html {
    font-size: 22px;
    font-weight: 900;
 }
-.footer {
-   background-color: #f8f8f8;
-   height: 466px;
+
+.footer-container {
+   padding: 100px;
+}
+
+.coffeeshop-footer-text {
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 30px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #4f5665;
    margin-top: 20px;
 }
-.about {
-   display: flex;
-   align-items: flex-start;
-   flex-direction: column;
-   padding: 15vh;
-}
-.footer {
-   display: flex;
-   height: 528px;
-}
-.aboutText {
-   margin-bottom: 45px;
-}
-.footerlogo {
-   margin-right: 15px;
-}
-.aboutHeader {
-   display: flex;
-   align-items: center;
-   margin-bottom: 26px;
-}
-.socialIcon {
-   display: flex;
-   margin-bottom: 30px;
-   width: 20%;
-   justify-content: space-between;
-}
-.waterMark {
+
+.copyright {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 30px;
+   letter-spacing: 0em;
+   text-align: left;
+   margin-top: 20px;
    color: #afb5c0;
 }
-.footerSide {
-   flex: 1;
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
-   background-color: #f8f8f8;
-   font-family: 'Rubik', sans-serif;
+
+.footer-list-header {
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 30px;
+   letter-spacing: 0em;
+   text-align: left;
 }
 
-.productList {
-   color: #0b132a;
-   font-weight: 600;
-   margin-bottom: 20px;
-}
-
-.product > p {
-   margin: 10px 0px;
-   color: #4f5665;
-}
-
-.engageList {
-   color: #0b132a;
-   font-weight: 600;
-   margin-bottom: 20px;
-}
-
-.engage > p {
-   margin: 10px 0px;
-   color: #4f5665;
+.footer-list-item {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 30px;
+   letter-spacing: 0em;
+   text-align: left;
 }
