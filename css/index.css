@@ -37,7 +37,7 @@ html {
 }
 
 .info {
-   width: 1140px;
+   width: 80%;
    height: 200px;
    display: flex;
    background-color: white;
@@ -233,8 +233,8 @@ html {
 }
 
 .maps-img img {
-   width: 1060px;
-   height: 537.77px;
+   width: 100%;
+   height: 100%;
    left: 190px;
    top: 3022.36px;
    opacity: 0.5;
@@ -275,10 +275,6 @@ html {
    text-align: center;
    color: #4f5665;
    padding-bottom: 60px;
-}
-
-.review-list {
-   margin-left: 50px;
 }
 
 .review-list-item {
@@ -451,4 +447,78 @@ html {
    line-height: 30px;
    letter-spacing: 0em;
    text-align: left;
+}
+
+@media (max-width: 834px) {
+   .info {
+      width: auto;
+   }
+
+   .main-teamwork {
+      flex-direction: column;
+   }
+
+   .maps-img img {
+      width: 80%;
+      height: 80%;
+   }
+
+   .review-list {
+      flex-direction: column;
+   }
+
+   .review-list-item {
+      margin-left: 0;
+      margin-bottom: 3%;
+   }
+}
+
+@media (max-width: 428px) {
+   .container-fluid .navbar-brand {
+      display: none;
+   }
+
+   .info {
+      position: static;
+      height: 500px;
+      padding-top: 50px;
+      margin: 3%;
+   }
+
+   .staf {
+      margin: 0;
+   }
+
+   .store {
+      margin: 0;
+   }
+
+   .customers {
+      margin: 0;
+      padding: 0;
+   }
+
+   .main-teamwork {
+      margin-top: 0;
+      padding: 0;
+   }
+
+   .left-team img {
+      width: 100%;
+      height: 100%;
+   }
+
+   .maps-title {
+      padding: 0;
+      margin: 5%;
+   }
+
+   .review-container {
+      padding: 7%;
+   }
+
+   .custom-promo {
+      height: 300px;
+      bottom: 150px;
+   }
 }
